@@ -1,0 +1,12 @@
+=== SYSTEM ARCHITECTURE ===
+Single Page Application (SPA) built with React and Vite.
+Hosting: Local development using Vite server.
+
+=== DATA FLOW ===
+1. User lands on page -> App component renders.
+2. Sections (Hero, About, Startup, Contact) are rendered as children.
+3. Interactions (Buttons, Links) trigger standard browser navigation or anchors.
+
+=== ERROR HANDLING ===
+- Standard React error boundaries (if applicable in future).
+- Browser console for runtime errors.

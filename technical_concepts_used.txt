@@ -1,0 +1,13 @@
+=== FRONTEND ===
+- React: UI library for building the interface.
+- Vite: Build tool and development server.
+- CSS Modules / Vanilla CSS: For styling the components.
+- Lucide React: For icons (social media, arrows).
+
+=== BACKEND ===
+(None currently - Static Site)
+
+=== DEPENDENCIES ===
+- react
+- react-dom
+- lucide-react (to be installed)
