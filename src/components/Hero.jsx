@@ -1,5 +1,5 @@
 import { ArrowDown } from 'lucide-react';
-import profileImg from '../assets/photo.png';
+import profileImg from '../assets/Photo.png';
 
 export default function Hero() {
   const scrollToWork = () => {
