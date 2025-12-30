@@ -6,10 +6,10 @@ export default function About() {
 
         <div className="about-content">
           <p>
-            I graduated with a Bachelor of Engineering in Computer Science and Engineering, I live at the intersection of technology, creativity, and entrepreneurship. I'm a believer in experiential learning through tinkering.
-          </p>
-          <p>
-            Developed an MVP of my start up idea <a href="https://find-it-ag.onrender.com" target="_blank" rel="noopener noreferrer">FIND IT</a>.
+            I graduated with a Bachelor of Engineering in Computer Science and
+            Engineering, I live at the intersection of technology, creativity,
+            and entrepreneurship. I'm a believer in experiential learning
+            through tinkering.
           </p>
         </div>
       </div>
