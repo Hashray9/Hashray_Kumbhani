@@ -278,12 +278,16 @@ export default function Startup() {
           overflow: hidden;
           border-radius: 30px; /* Matched to inner border radius */
           position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
         }
 
         .startup-video {
           width: 98%;
           height: 100%;
           object-fit: cover; /* Cover effectively fills the phone screen */
+          margin: 0 auto;
         }
 
         @media (max-width: 480px) {
@@ -314,12 +318,16 @@ export default function Startup() {
               border-radius: 28px;
               width: 100%;
               height: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
            }
            .startup-video {
               width: 98%;
               height: 100%;
               object-fit: cover;
               border-radius: 28px;
+              margin: 0 auto;
            }
            .close-btn {
              position: fixed;
