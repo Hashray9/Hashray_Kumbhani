@@ -24,16 +24,16 @@ export default function Startup() {
           <h2 className="card-title">My Startup Idea</h2>
 
           <p className="card-text">
-            I'm working on something exciting — a startup that aims to solve
-            'Disconnect Problem' in offline retail: Shoppers don't know what
-            pairs together, and retailers don't have the digital tools to show
+            I'm working on something exciting — a service that aims to solve
+            'Disconnect Problem' in offline retail: Shoppers struggles to know
+            what pairs together, and offline retail stores don't have the digital tools to show
             them.
           </p>
           <p className="card-text">
-            While e-commerce uses algorithms to drive sales, offline retail is
-            flying blind. Shoppers suffer from decision fatigue trying to find
-            matching outfits in messy stores, while retailers lose revenue on
-            missed cross-selling opportunities and dead inventory.
+            While e-commerce uses algorithms to drive sales, there is no such tools in
+            offline retail. Shoppers suffer from decision fatigue trying to find
+            matching outfits in aisles of store, while retailers lose revenue on
+            missed cross-selling opportunities and dead inventory not moving.
           </p>
           <div className="card-actions">
             <button onClick={openVideo} className="btn-primary">
