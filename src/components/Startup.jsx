@@ -281,7 +281,7 @@ export default function Startup() {
         }
 
         .startup-video {
-          width: 100%;
+          width: 98%;
           height: 100%;
           object-fit: cover; /* Cover effectively fills the phone screen */
         }
