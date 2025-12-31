@@ -1,6 +1,6 @@
-import { useState } from 'react';
-import { Rocket, ExternalLink, FileText, X, Play } from 'lucide-react';
-import startupVideo from '../assets/Start-up.mp4';
+import { useState } from "react";
+import { Rocket, ExternalLink, FileText, X, Play } from "lucide-react";
+import startupVideo from "../assets/Start-up.mp4";
 
 export default function Startup() {
   const [isVideoOpen, setIsVideoOpen] = useState(false);
@@ -24,14 +24,27 @@ export default function Startup() {
           <h2 className="card-title">My Startup Idea</h2>
 
           <p className="card-text">
-            I'm working on something exciting — a startup that aims to solve 'Disconnect Problem' in offline retail: Shoppers don't know what pairs together, and retailers don't have the digital tools to show them.
+            I'm working on something exciting — a startup that aims to solve
+            'Disconnect Problem' in offline retail: Shoppers don't know what
+            pairs together, and retailers don't have the digital tools to show
+            them.
           </p>
-          <p className="card-text">While e-commerce uses algorithms to drive sales, offline retail is flying blind. Shoppers suffer from decision fatigue trying to find matching outfits in messy stores, while retailers lose revenue on missed cross-selling opportunities and dead inventory.</p>
+          <p className="card-text">
+            While e-commerce uses algorithms to drive sales, offline retail is
+            flying blind. Shoppers suffer from decision fatigue trying to find
+            matching outfits in messy stores, while retailers lose revenue on
+            missed cross-selling opportunities and dead inventory.
+          </p>
           <div className="card-actions">
             <button onClick={openVideo} className="btn-primary">
               App Video <Play size={16} fill="white" />
             </button>
-            <a href="https://find-it-z0wif0j.gamma.site/" target="_blank" rel="noopener noreferrer" className="btn-outline">
+            <a
+              href="https://find-it-z0wif0j.gamma.site/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-outline"
+            >
               <FileText size={16} /> View Pitch Deck
             </a>
           </div>
@@ -40,26 +53,13 @@ export default function Startup() {
 
       {isVideoOpen && (
         <div className="video-modal" onClick={closeVideo}>
-          <div className="modal-content-wrapper" onClick={(e) => e.stopPropagation()}>
+          <div
+            className="modal-content-wrapper"
+            onClick={(e) => e.stopPropagation()}
+          >
             <button className="close-btn" onClick={closeVideo}>
               <X size={24} />
             </button>
-
-            {/* Desktop: Left annotation */}
-            <div className="annotation-wrapper desktop-only">
-              <p className="annotation-text">
-                <span className="highlight">in-store experience example:</span><br />
-                Scanned a QR code on a physical product to unlock its digital identity and styling options instantly.
-              </p>
-              <svg className="curly-arrow" viewBox="0 0 100 100" preserveAspectRatio="none">
-                <path d="M10,10 C40,10 40,80 90,80" fill="none" stroke="white" strokeWidth="2" markerEnd="url(#arrowhead)" />
-                <defs>
-                  <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-                    <polygon points="0 0, 10 3.5, 0 7" fill="white" />
-                  </marker>
-                </defs>
-              </svg>
-            </div>
 
             {/* Video content area */}
             <div className="video-content-area">
@@ -76,12 +76,25 @@ export default function Startup() {
               <div className="mobile-steps">
                 <h3 className="steps-title">How it works:</h3>
                 <ul className="steps-list">
-                  <li><span className="step-number">1</span> User scans selected T-Shirt.</li>
-                  <li><span className="step-number">2</span> Complete Styled Outfit recommended.</li>
-                  <li><span className="step-number">3</span> User "Add to cart" and Pay online.</li>
+                  <li>
+                    <span className="step-number">1</span> Customer enters the
+                    store
+                  </li>
+                  <li>
+                    <span className="step-number">2</span> Select a T-Shirt to
+                    make outfit
+                  </li>
+                  <li>
+                    <span className="step-number">3</span> Scan selected T-Shirt
+                  </li>
+                  <li>
+                    <span className="step-number">4</span> Boom! Complete Styled
+                    Outfit recommended.
+                  </li>
                 </ul>
-                <h3 className="steps-title">Fun Shopping! No wandering in store here and there</h3>
-
+                <h3 className="steps-title">
+                  Fun Shopping! No wandering in store here and there
+                </h3>
               </div>
             </div>
 
@@ -89,13 +102,26 @@ export default function Startup() {
             <div className="steps-wrapper desktop-only">
               <h3 className="steps-title">How it works:</h3>
               <ul className="steps-list">
-                <li><span className="step-number">1</span> User scans selected T-Shirt.</li>
-                <li><span className="step-number">2</span> Complete Styled Outfit recommended.</li>
-                <li><span className="step-number">3</span> User "Add to cart" and Pay online.</li>
+                <li>
+                  <span className="step-number">1</span> Customer enters the
+                  store
+                </li>
+                <li>
+                  <span className="step-number">2</span> Select a T-Shirt to
+                  make outfit
+                </li>
+                <li>
+                  <span className="step-number">3</span> Scan selected T-Shirt
+                </li>
+                <li>
+                  <span className="step-number">4</span> Boom! Complete Styled
+                  Outfit recommended.
+                </li>
               </ul>
-              <h3 className="steps-title">Fun Shopping! No wandering in store here and there</h3>
+              <h3 className="steps-title">
+                Fun Shopping! No wandering in store here and there
+              </h3>
             </div>
-
           </div>
         </div>
       )}
