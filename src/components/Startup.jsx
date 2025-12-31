@@ -316,7 +316,7 @@ export default function Startup() {
               height: 100%;
            }
            .startup-video {
-              width: 100%;
+              width: 98%;
               height: 100%;
               object-fit: cover;
               border-radius: 28px;
