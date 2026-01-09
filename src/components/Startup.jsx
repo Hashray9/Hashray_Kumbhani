@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Rocket, ExternalLink, FileText, X, Play } from "lucide-react";
 import startupVideo from "../assets/Start-up.mp4";
+import appDemoQR from "../assets/app-demo-qr.png";
 
 export default function Startup() {
   const [isVideoOpen, setIsVideoOpen] = useState(false);
@@ -49,6 +50,12 @@ export default function Startup() {
             </a>
           </div>
         </div>
+      </div>
+
+      {/* QR Code Demo Section */}
+      <div className="qr-demo-section">
+        <img src={appDemoQR} alt="App Demo QR Code" className="qr-demo-image" />
+        <p className="qr-demo-text">Scan this to see App Demo</p>
       </div>
 
       {isVideoOpen && (
@@ -140,6 +147,34 @@ export default function Startup() {
           align-items: center;
           max-width: 900px;
           margin: 0 auto;
+        }
+
+        /* QR Code Demo Section Styles */
+        .qr-demo-section {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          margin-top: 4rem;
+          padding: 2rem;
+        }
+        .qr-demo-image {
+          width: 280px;
+          height: 280px;
+          border-radius: 16px;
+          box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .qr-demo-image:hover {
+          transform: scale(1.05);
+          box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+        }
+        .qr-demo-text {
+          margin-top: 1.5rem;
+          font-size: 1.3rem;
+          font-weight: 500;
+          color: var(--color-text-muted);
+          text-align: center;
         }
         .icon-wrapper {
           background-color: rgba(176, 109, 72, 0.1);
