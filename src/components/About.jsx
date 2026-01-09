@@ -9,7 +9,7 @@ export default function About() {
             I graduated with a Bachelor of Engineering in Computer Science and
             Engineering, I live at the intersection of technology, creativity,
             and entrepreneurship. I'm a believer in experiential learning
-            through tinkering.
+            through tinkering. Also I cannot keep myself smile away for more than 2 minutes :).
           </p>
         </div>
       </div>
