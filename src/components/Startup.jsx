@@ -22,7 +22,7 @@ export default function Startup() {
             <Rocket color="#b06d48" size={28} />
           </div>
 
-          <h2 className="card-title">My Startup Idea</h2>
+          <h2 className="card-title">Hyper Personalization</h2>
 
           <p className="card-text">
             I'm working on something exciting — a service that aims to solve
