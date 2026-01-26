@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Rocket, ExternalLink, FileText, X, Play } from "lucide-react";
 import startupVideo from "../assets/Start-up.mp4";
+import startupVideoWebM from "../assets/Start-up.webm";
 import appDemoQR from "../assets/app-demo-qr.png";
 
 export default function Startup() {
@@ -72,6 +73,7 @@ export default function Startup() {
               <div className="phone-frame">
                 <div className="screen-content">
                   <video controls className="startup-video">
+                    <source src={startupVideoWebM} type="video/webm" />
                     <source src={startupVideo} type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
