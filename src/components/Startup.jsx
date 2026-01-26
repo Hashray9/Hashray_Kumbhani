@@ -195,6 +195,7 @@ export default function Startup() {
           color: var(--color-text-muted);
           max-width: 600px;
           margin: 0 auto 2.5rem;
+          text-align: justify;
         }
         .card-actions {
           display: flex;
