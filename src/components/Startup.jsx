@@ -25,16 +25,15 @@ export default function Startup() {
           <h2 className="card-title">Hyper Personalization</h2>
 
           <p className="card-text">
-            I'm working on something exciting — a service that aims to solve
-            'Disconnect Problem' in offline retail: Shoppers struggles to know
-            what pairs together, and offline retail stores don't have the digital tools to show
-            them.
+            I'm working on something exciting — a service that provides Hyper Personalization to offline retail stores.
+            Let me explain, while shopping in offline store, we often struggle to create an outfit for ourselves.
+            For example, if I selected a T-Shirt and now I want make a proper outfit. I am exposed to dozens of options
+            of jeans,trousers, etc. and I cannot visualize and decide what to pick, this where our app comes in.
           </p>
           <p className="card-text">
-            While e-commerce uses algorithms to drive sales, there is no such tools in
-            offline retail. Shoppers suffer from decision fatigue trying to find
-            matching outfits in aisles of store, while retailers lose revenue on
-            missed cross-selling opportunities and dead inventory not moving.
+            Our app solves this problem by helping user to style the outfit. I will get to know which jeans,trousers, etc. will
+            go perfectly with my selected t-shirt. User gets properly styled outfit suggestions and the good thing is that user gets suggestions of items which are available in the store.
+            This helps the user to make a quick decision without wandering in the entire store wasting time and energy.
           </p>
           <div className="card-actions">
             <button onClick={openVideo} className="btn-primary">
