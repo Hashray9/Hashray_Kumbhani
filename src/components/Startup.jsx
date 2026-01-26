@@ -31,8 +31,8 @@ export default function Startup() {
             of jeans,trousers, etc. and I cannot visualize and decide what to pick, this where our app comes in.
           </p>
           <p className="card-text">
-            Our app solves this problem by helping user to style the outfit. I will get to know which jeans,trousers, etc. will
-            go perfectly with my selected t-shirt. User gets properly styled outfit suggestions and the good thing is that user gets suggestions of items which are available in the store.
+            Our app solves this problem by helping user to style the outfit. User will get to know which jeans,trousers, etc. will
+            go perfectly with their selected t-shirt. User gets properly styled outfit suggestions and the good thing is that user gets suggestions of items which are available in the store.
             This helps the user to make a quick decision without wandering in the entire store wasting time and energy.
           </p>
           <div className="card-actions">
